@@ -92,21 +92,21 @@
   <origin xyz="0.115189 0.002407 0.221688" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="lidar_1"/>
-  <axis xyz="-0.0 0.0 1.0"/>
+  <axis xyz="0.0 0.0 1.0"/>
 </joint>
 
 <joint name="Rev6" type="continuous">
   <origin xyz="-0.077311 -0.057593 0.174688" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_wheel_1"/>
-  <axis xyz="0.0 -1.0 -0.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Rev7" type="continuous">
   <origin xyz="-0.077311 0.062407 0.174688" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_wheel_1"/>
-  <axis xyz="-0.0 1.0 0.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 </robot>
